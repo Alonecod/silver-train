@@ -1,0 +1,54 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.head h1{
+  padding-left: 550px;
+  margin-top: 40px;
+  display: flex;
+  font-family:'Times New Roman', Times, serif;
+}
+.contact{
+  padding: 0;
+  padding-top: 9%;
+  padding-left: 20%;
+  display: flex;
+}
+.contact form{
+ margin-left: 20px;
+}
+.imp input{
+  display: block;
+  margin-top: 30px;
+  margin: 2px 60px 30px 0;
+  outline: none;
+  width: 150%;
+  height: 35px;
+  font-family: 'Times New Roman', Times, serif;
+  border-top-style: none;
+  border-left-style: none;
+  border-left-width: 2px;
+ border-right-style: none;
+ border-bottom-width: 2px;
+ border-bottom-color: rgb(58, 58, 194);
+}
+.contact .image img{
+  width: 60%;
+  padding-left: 45px;
+}
+.btn{
+  padding: 2px;
+}
+.btn input{
+  padding: 5px;
+  width: 100px;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(40, 40, 182);
+  transition: ease-in-out .3s;
+}
+.btn input:hover{
+  color: rgba(255, 255, 255, 0.831);
+}
